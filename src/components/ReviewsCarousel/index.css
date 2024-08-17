@@ -1,76 +1,76 @@
 /* Write your code here */
-*{
-    margin: 0;
+* {
+  margin: 0;
 }
-.app-container{
-    background-image: url("https://assets.ccbp.in/frontend/react-js/reviews-bg.png");
-    min-height: 100vh;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
 }
-.review-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
+.review-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
 }
-.heading{
-    color: #ffffff;
-    font-size: 26px;
-    font-weight: 600;
-    font-family: 'Roboto';
-    margin: 30px 0;
-    text-align: center;
+.heading {
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  margin: 30px 0;
+  text-align: center;
 }
-.profile{
-    margin: 20px 0;
+.profile {
+  margin: 20px 0;
 }
-.username{
-    color: #ffffff;
-    font-size: 16px;
-    font-family: 'Roboto';
-    margin: 10px 0;
-    text-align: center;
+.username {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Roboto';
+  margin: 10px 0;
+  text-align: center;
 }
-.company-name{
-    color: #171f46;
-    font-size: 16px;
-    font-family: 'Roboto';
-    margin: 10px 0;
-    text-align: center;
+.company-name {
+  color: #171f46;
+  font-size: 16px;
+  font-family: 'Roboto';
+  margin: 10px 0;
+  text-align: center;
 }
-.description{
-    color: #171f46;
-    font-size: 16px;
-    font-family: 'Roboto';
-    margin: 10px 0;
-    text-align: center;
+.description {
+  color: #171f46;
+  font-size: 16px;
+  font-family: 'Roboto';
+  margin: 10px 0;
+  text-align: center;
 }
-.button{
-    background-color: transparent;
-    border: none;
-    outline: none;
+.button {
+  background-color: transparent;
+  border: none;
+  outline: none;
 }
-.arrow{
-    width: 25px;
-    height: 25px;
+.arrow {
+  width: 25px;
+  height: 25px;
 }
 
 @media screen and (min-width: 768px) {
-    .heading{
-        font-size: 36px;
-    }
-    .username{
-        font-size: 20px;
-    }
-    .description{
-        font-size: 20px;
-    }
-    .company-name{
-        font-size: 20px;
-    }
+  .heading {
+    font-size: 36px;
+  }
+  .username {
+    font-size: 20px;
+  }
+  .description {
+    font-size: 20px;
+  }
+  .company-name {
+    font-size: 20px;
+  }
 }
